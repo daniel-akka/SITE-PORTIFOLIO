@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portifólio</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <link rel="stylesheet" href="./static/css-default.css">
+    <link rel="stylesheet" href="./static/css-especific.css">
+    <script src="sendmail.js"></script>
+  </head>
+  <body>
+    <header>
+
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark pl-5" aria-label="Tenth navbar example">
+            <a class="navbar-brand" href="#">Daniel Feitosa</a>
+            <div class="collapse navbar-collapse justify-content-md-end" id="navbarsExample08">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#sobre">Sobre</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#portifolio">Portifólio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#contato">Contato</a>
+                  </li>
+                </ul>
+              </div>
+        </nav>
+
+    </header>
+
+    <br>
+    <div class="container">
+
+        <!--   SESSÃO - HOME   -->
+        <section id="home" class="mb-2">
+            <header>
+                <h3>Daniel Feitosa
+                    <small class="text-muted">Portifólio Oficial</small>
+                </h3>
+            </header>
+            <div class="d-flex">
+                <figure class="figure w-25 mr-2 flex-shrink-0">
+                    <img src="./resource/akka01.jpg" alt="Imagem Pessoal do Daniel" 
+                        class="figure-img img-fluid rounded">
+                </figure>
+                <aside class="flex-grow-1 ms-3">
+                    <div class="card p-2">
+                        <article>
+                            <h3 class="card-title">Quem sou eu</h3>
+                            <p class="card-body">Jovem aprendendo Programação</p>       
+                        </article>
+                        <article>
+    
+                            <h3 class="card-title">Habilidades</h3>
+                            <div class="card-body">
+                                <ul>
+                                    <li>Html</li>
+                                    <li>JavaScript</li>
+                                    <li>Css</li>
+                                    <li>Java</li>
+                                    <li>Lógica de Programação</li>
+                                </ul>
+                            </div>
+                        </article>
+                    </div>
+                </aside>
+            </div>
+            
+        </section>
+
+        <!--   SESSAO - SOBRE   -->
+        <section id="sobre" class="mb-5">
+
+            <header>
+                <h3>
+                    Sobre
+                    <small class="text-muted">Um pouco sobre minha historia</small>
+                </h3>
+            </header>
+            
+            <article>
+                <p>
+                    Tive primeiro contato com linguagem de progamação no IFPI em 2008. Gosto de programar, emborar tenha problema com o tempo para me dedicar mais.
+                </p>
+                <p>
+                    Gosto de pensar em soluções por isso gosto de desafios no meu ambiente de trabalho.
+                </p>
+            </article>
+
+        </section>
+
+        <!--    SESSAO - PORTIFOLIO   -->
+        <section id="portifolio" class="mb-5">
+            <header>
+                <h3>
+                    Portifólio
+                    <small class="text-muted">Algumas coisas que eu fiz</small>
+                </h3>
+            </header>
+
+            <div class="row p-2">
+
+                <article class="col-sm-3">
+                    <div class="card">
+                        <img src="./resource/portifolio/ajustes-sped-fiscal.png" class="card-img-top" alt="Projeto Ajustes Sped Fiscal">
+                        <div class="card-body">
+                          <h5 class="card-title mb-5">Ajustes do Sped Fiscal</h5>
+                          <p class="card-text">
+                            <strong class="text-muted">É um projeto WEB.</strong> Que tem como objetivo fazer ajustes no arquivo EFD ICMS.
+                          </p>
+                          <a rel="noopener" href="https://daniel-akka.github.io/ajustes-spedfiscal/" target="_blank" class="btn btn-primary">Testar Projeto</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="col-sm-3">
+                    <div class="card">
+                        <img src="./resource/portifolio/locadora-de-brinquedos.png" class="card-img-top" alt="Projeto Ajustes Sped Fiscal">
+                        <div class="card-body">
+                          <h5 class="card-title mb-5">Locadora de Brinquedos</h5>
+                          <p class="card-text">
+                            <strong class="text-muted">É um projeto Desktop.</strong> Que tem como objetivo fazer locações de brinquedos para crianças, com temporizador, fechamento do tempo e fechamento do caixa.
+                          </p>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="col-sm-3">
+                    <div class="card">
+                        <img src="./resource/portifolio/cadastro-de-ficha-otica.png" class="card-img-top" alt="Projeto Ajustes Sped Fiscal">
+                        <div class="card-body">
+                          <h5 class="card-title mb-5">Ficha Ótica</h5>
+                          <p class="card-text">
+                            <strong class="text-muted">É um projeto Desktop.</strong> Faz cadastro de fichas óticas, incluia controle do financeiro de promissórias.
+                          </p>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="col-sm-3">
+                    <div class="card">
+                        <img src="./resource/portifolio/clinica-odontologica.png" class="card-img-top" alt="Projeto Ajustes Sped Fiscal">
+                        <div class="card-body">
+                          <h5 class="card-title">Sistema para Clínica Odontológica</h5>
+                          <p class="card-text">
+                            <strong class="text-muted">É um projeto Desktop.</strong> 
+                            Sistema gerencial para Clínica Odontológica, com fluxo de caixa, 
+                            comissões, despesas, crédiário, agendamentos e outros.
+                          </p>
+            
+                        </div>
+                    </div>
+                </article>
+
+            </div>
+
+
+        </section>
+
+
+        <!--   CONTATO   -->
+        <section id="contato">
+
+            <header>
+                <h3>
+                    Contato
+                    <small class="text-muted"> fale com o Daniel</small>
+                </h3>
+            </header>
+
+            <div class="card p-5 mb-2">
+
+                <!-- FORMULARIO -->
+                <form>
+                    <div class="row mb-3">
+                      
+                      <div class="col-sm-10">
+                        <input type="text" class="form-control" id="form-nome" placeholder="Nome" aria-label="Nome">
+                      </div>
+                    </div>
+                    <div class="row mb-3">
+                      
+                      <div class="col-sm-10">
+                        <input type="email" class="form-control" id="form-email" placeholder="Email" aria-label="Email">
+                      </div>
+                    </div>
+                    <div class="row mb-3">
+                      
+                        <div class="col-sm-10">
+                          <input type="tel" class="form-control" id="form-telefone" placeholder="(**)********" aria-label="Telefone">
+                        </div>
+                    </div>
+                    <div class="row mb-3">
+                      
+                        <div class="col-sm-10">
+                          <input type="text" id="form-assunto" class="form-control" placeholder="Assunto" aria-label="Assunto">
+                        </div>
+                      </div>
+                    
+                      <div class="mb-3">
+                        <textarea class="form-control" id="form-mensagem" rows="3" placeholder="Mensagem"></textarea>
+                      </div>
+
+                    <button type="submit" class="btn btn-primary" onclick="sendMail(); return false">Enviar Mensagem!</button>
+                  </form>
+
+
+            </div>
+
+        </section>
+
+
+    </div>
+
+
+    <footer class="navbar navbar-expand-md navbar-dark bg-dark justify-content-md-center">
+        <div class="navbar-text p-3">
+            © 2020 Copyright:
+            <a class="navbar-brand fs-6" href="#">Daniel Feitosa</a>
+        </div>
+    </footer>
+
+  </body>
+</html>
